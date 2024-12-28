@@ -1,0 +1,76 @@
+
+{
+    "Presentation" : {
+        "h1" : "Elon Musk",
+        "h2" : "computer science student",
+        "img":"./ressources/images/elon_musk.jpg",
+        "p" : "Successful entrepreneur with 20+ years founding and steering highly profitableProduct Development companies. Seeking to leverage my passion for innovation to tackle climate change and ensure human progress through sustainable manufacturing andForward Thinking space exploration initiatives."
+    },
+    "Experience" : {
+        "article" : [
+            {
+                "h2" : "FOUNDER",
+                "p" : [
+                    "The Boring Company",
+                    "Secured a $48 million contract from the Las Vegas Convention and Visitors Authority to construct an underground loop system.",
+                    "Awarded a contract by the city of Chicago to provide high-speed transportation between the city center and O’Hare airport."
+                ],
+
+                "time" : {
+                    "datetime" : "",
+                    "text" : "2017 - present"
+                }
+            },
+            {
+                "h2" : "CO-FOUNDER / FORMER CHAIRMAN",
+                "p" : [
+                    "SolarCity",
+                    "Expanded SolarCity’s capacity, installing over 870MW of solar power in 2015 (28% of all non-utility solar installation in the U.S. that year).",
+                    "Merged SolarCity with Tesla to maximize synergies and accelerate the world’s transition to sustainable energy.",
+                    "Established SolarCity as the most popular U.S. solar installation company in 2008 through a no-money-down leasing program."
+                ],
+
+                "time" : {
+                    "datetime" : "",
+                    "text" : "2006 – Present"
+                }
+            },
+            {
+                "h2" : "CEO / FOUNDER / LEAD DESIGNER",
+                "p" : [
+                    "SpaceX",
+                    "Successfully test launched the Falcon Heavy Rocket, the highest-capacity rocket in the world.",
+                    "Negotiated a key contract with NASA to handle cargo transport for the International Space Station.",
+                    "Supervised 89 successful full mission launches of the Falcon 9 rocket.",
+                    "Spearheaded the development of rockets developed from reusable parts, paving the way for affordable space travel."
+                ],
+
+                "time" : {
+                    "datetime" : "",
+                    "text" : "2006 – Present"
+                }
+            }
+
+        ]
+        
+
+    },
+    "Skills" : {
+        "p" : [
+            "Product Development",
+            "Forward Thinking",
+            "Cutting-Edge Innovation",
+            "Marketing Expert",
+            "Space Exploration",
+            "Corporate Leadership",
+            "Enthusiastic Learner"
+        ]
+
+    },
+    "Contacts" : {
+        "p" : "(310) 420-1541",      
+        "addresse" : [{
+            "p" : "elon.musk@teslamotors.com"
+        }]
+    }
+}

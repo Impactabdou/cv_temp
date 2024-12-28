@@ -1,0 +1,73 @@
+{
+    "Presentation": {
+        "h1": "Donald Trump",
+        "h2": "Businessman & 45th President of the United States",
+        "img": "./ressources/images/donald_trump.jpg",
+        "p": "Accomplished real estate developer and entrepreneur, known for a high-profile career spanning real estate, television, and politics. Served as the 45th President of the United States, focusing on policies to promote economic growth, border security, and America-first initiatives."
+    },
+    "Experience": {
+        "article": [
+            {
+
+                "h2": "PRESIDENT OF THE UNITED STATES",
+                "time": {
+                    "datetime": "2017 - 2021",
+                    "text": "2017 - 2021"
+                },
+                "p": [
+                    "Served as the 45th President of the United States.",
+                    "Implemented significant tax reforms through the Tax Cuts and Jobs Act of 2017.",
+                    "Focused on deregulation to stimulate economic growth and reduce bureaucratic hurdles.",
+                    "Negotiated new trade agreements, including the USMCA, replacing NAFTA."
+                ]
+                
+            },
+            {
+                "h2": "CHAIRMAN & PRESIDENT",
+                "time": {
+                    "datetime": "",
+                    "text": "1971 - Present"
+                },
+                "p": [
+                    "The Trump Organization",
+                    "Led an extensive portfolio of real estate projects, including skyscrapers, hotels, golf courses, and luxury residences.",
+                    "Expanded global branding efforts, licensing the Trump name for properties and products.",
+                    "Spearheaded renovations of iconic landmarks like the Wollman Rink in Central Park."
+                ]
+            },
+            {
+
+                "h2": "TELEVISION HOST & EXECUTIVE PRODUCER",
+                "time": {
+                    "datetime": "2004 - 2015",
+                    "text": "2004 - 2015"
+                },
+                "p": [
+                    "The Apprentice",
+                    "Hosted and produced the hit reality TV show, which aired for 14 seasons.",
+                    "Popularized the phrase 'You're fired!' as a cultural catchphrase.",
+                    "Used the platform to expand personal branding and visibility."
+                ]
+            }
+        ]
+    },
+    "Skills": {
+        "p": [
+            "Real Estate Development",
+            "Negotiation",
+            "Brand Building",
+            "Public Speaking",
+            "Leadership",
+            "Economic Policy",
+            "Strategic Vision"
+        ]
+    },
+    "Contacts": {
+        "p": "(212) 832-2000",
+        "addresse": [
+            {
+                "p": "contact@trump.com"
+            }
+        ]
+    }
+}

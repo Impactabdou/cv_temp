@@ -1,0 +1,53 @@
+{
+    "Presentation": {
+        "h1": "Albert Einstein",
+        "h2": "Theoretical Physicist",
+        "img": "./ressources/images/albert_einstein.jpg",
+        "p": "Pioneering physicist who revolutionized science with the theory of relativity. Known for his intellect, creativity, and contributions to quantum mechanics, cosmology, and the philosophy of science."
+    },
+    "Experience": {
+        "article": [
+            {
+                "h2": "PROFESSOR OF PHYSICS",
+                "time": {
+                    "datetime": "1909 - 1932",
+                    "text": "1909 - 1932"
+                },
+                "p": [
+                    "Held academic positions at universities across Europe and the United States.",
+                    "Conducted groundbreaking research on quantum theory and gravitational waves.",
+                    "Published over 300 scientific papers, influencing countless fields."
+                ]
+            },
+            {
+                "h2": "PATENT CLERK",
+                "time": {
+                    "datetime": "1902 - 1909",
+                    "text": "1902 - 1909"
+                },
+                "p": [
+                    "Worked at the Swiss Patent Office, developing key insights that led to his scientific theories.",
+                    "Wrote papers on the photoelectric effect, special relativity, and Brownian motion."
+                ]
+            }
+        ]
+    },
+    "Skills": {
+        "p": [
+            "Theoretical Physics",
+            "Scientific Research",
+            "Problem Solving",
+            "Innovative Thinking",
+            "Public Speaking",
+            "Science Communication"
+        ]
+    },
+    "Contacts": {
+        "p": "(000) 000-0000",
+        "addresse": [
+            {
+                "p": "contact@einstein.edu"
+            }
+        ]
+    }
+}

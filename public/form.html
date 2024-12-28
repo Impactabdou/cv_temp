@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./styles/form.css">
+</head>
+<body>
+    <main id="main">
+
+        <form id="form" action="./cv.html">
+
+            <div id="Presentation">
+                <label for="Presentation_h1">Name and last name<input class="input" id="input_presentation" type="text" name="Presentation_h1"></label>
+                <label for="Presentation_h2">Current function<input class="input" id="input_presentation" type="text" name="Presentation_h2"></label>
+                <label for="Presentation_p">Description<input class="input" id="input_presentation" type="text" name="Presentation_p"></label>
+            </div>
+            
+            
+            
+            <div id="Experience">
+                
+            </div>
+
+            <div id="Skills">
+                
+            </div>
+
+            <div id="Contacts">
+                <label for="contacts_p">Number<input class="input" id="input_contacts" type="text" name="contacts_p"></label>
+                <label for="contacts_address">Address<input class="input" id="input_contacts" type="text" name="constacts_address"></label>
+            </div>
+
+            <button id="experience-button" type="button" onclick="generateArticleForm()">Add experience</button>
+            <button id="skill-button" type="button" onclick="generateSkills()">Add skill</button>
+
+            <button id="switch" type="button" onclick="generateNextSection()">Next</button>
+
+            <button id="submit" type="submit" value="submit">submit</button>
+        </form>
+
+        <form id="form_img">
+            <label>Add a profile picture<input id="input_img" type="file" name="Presentation_img" /></label>
+        </form>
+
+    </main>
+
+    <script src="./form.js" ></script>
+</body>
+</html>

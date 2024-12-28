@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>By kabar Abderrahmene</title>
+    <link rel="stylesheet" href="./styles/index.css">
+<body>
+    
+    <main id="main">
+        
+
+        <p>
+            Welcome to my awsome<br>cv generator ! 
+        </p>
+        <div>
+            <a id="a" href="./form.html">Start Creating Your CV
+            </a>
+        </div>
+       
+        
+        
+        
+        
+
+
+    </main>
+
+
+    <script>
+
+        let time = 1500;
+        let transitionTime = "1.5s";
+
+        let button = document.getElementById("a");
+        let svg = document.getElementById("svg");
+
+        button.addEventListener("mouseenter",()=>{
+            time = 500;
+            transitionTime = "0.5s";
+        })
+        
+        button.addEventListener("mouseleave",()=>{
+            time = 2000;
+            transitionTime = "2s";
+        })
+
+        async function changeBorders() {
+            let main = document.getElementById("main");
+            let count = 1000000;
+
+            while (count > 0) {
+                if (count % 2 === 0) {
+                    main.style.transitionDuration = transitionTime;
+                    main.style.border = await changeColor("#fff0b3");
+                } else {
+                    main.style.transitionDuration = transitionTime;
+                    main.style.border = await changeColor("black");
+                }
+                
+                await new Promise(resolve => setTimeout(resolve, time));
+                
+                count--;
+            }
+        }
+
+        async function changeColor(color) {
+            return "solid ".concat(color).concat(" 5px");
+        }
+
+
+        changeBorders();
+        
+
+       
+    </script>
+</body>
+</html>

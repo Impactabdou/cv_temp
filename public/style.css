@@ -1,0 +1,171 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.5;
+    padding: 20px;
+}
+
+/* Header: Name and Title */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+}
+
+header h2 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border: 1px solid #0066cc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #0066cc;
+    color: #fff;
+}
+
+/* Main Sections */
+main {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Titles */
+section {
+    margin-bottom: 20px;
+}
+
+
+
+section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Content Styling */
+section p, section ul {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin-bottom: 5px;
+}
+
+/* Articles for Experience or Skills */
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #0066cc;
+    border-radius: 5px;
+}
+
+article h3 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+article p {
+    font-size: 15px;
+    color: #555;
+}
+
+article time {
+    font-size: 14px;
+    color: #777;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Images and Figures */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header nav a {
+        margin: 5px 5px;
+        padding: 8px 12px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    article h3 {
+        font-size: 18px;
+    }
+}

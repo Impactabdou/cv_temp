@@ -1,0 +1,67 @@
+{
+    "Presentation": {
+        "h1": "Barack Obama",
+        "h2": "44th President of the United States & Author",
+        "img": "./ressources/images/barack_obama.jpg",
+        "p": "Renowned statesman and leader, served two terms as President of the United States. Advocated for healthcare reform, climate change action, and economic recovery. Known for his eloquence and ability to inspire hope and unity."
+    },
+    "Experience": {
+        "article": [
+            {
+                "h2": "PRESIDENT OF THE UNITED STATES",
+                "time": {
+                    "datetime": "2009 - 2017",
+                    "text": "2009 - 2017"
+                },
+                "p": [
+                    "Served as the 44th President of the United States.",
+                    "Signed the Affordable Care Act into law, expanding healthcare coverage for millions.",
+                    "Overhauled U.S. auto industry during the financial crisis, preserving jobs and innovation.",
+                    "Focused on renewable energy and climate action through international agreements."
+                ]
+            },
+            {
+                "h2": "U.S. SENATOR",
+                "time": {
+                    "datetime": "2005 - 2008",
+                    "text": "2005 - 2008"
+                },
+                "p": [
+                    "Represented the state of Illinois in the U.S. Senate.",
+                    "Worked on ethics reform and transparency in government.",
+                    "Advocated for veterans' benefits and economic fairness."
+                ]
+            },
+            {
+                "h2": "COMMUNITY ORGANIZER & LAW PROFESSOR",
+                "time": {
+                    "datetime": "1985 - 2004",
+                    "text": "1985 - 2004"
+                },
+                "p": [
+                    "Organized programs to improve housing and employment opportunities in Chicago.",
+                    "Taught constitutional law at the University of Chicago."
+                ]
+            }
+        ]
+    },
+    "Skills": {
+        "p": [
+            "Public Policy",
+            "Leadership",
+            "Public Speaking",
+            "Advocacy",
+            "Strategic Vision",
+            "Climate Action",
+            "Economic Recovery"
+        ]
+    },
+    "Contacts": {
+        "p": "(312) 555-1212",
+        "addresse": [
+            {
+                "p": "contact@obama.org"
+            }
+        ]
+    }
+}

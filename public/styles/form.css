@@ -1,0 +1,143 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0b3; /* Light yellow background */
+    color: #2e2111; /* Dark brown text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background: #fff; /* White for contrast */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2e2111; /* Dark brown text */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #FD7024; /* Vibrant orange border */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    border-color: #2e2111; /* Dark brown focus */
+    box-shadow: 0 0 5px rgba(46, 33, 17, 0.5); /* Subtle glow */
+}
+
+button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff; /* White text */
+    background-color: #FD7024; /* Vibrant orange */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2e2111; /* Dark brown on hover */
+}
+
+#experience-button,
+#skill-button,
+#switch {
+    background-color: #2e2111; /* Dark brown buttons */
+    color: #fff0b3; /* Light yellow text */
+}
+
+#experience-button:hover,
+#skill-button:hover,
+#switch:hover {
+    background-color: #FD7024; /* Vibrant orange on hover */
+    color: #fff; /* White text */
+}
+
+#submit {
+    background-color: #fff0b3; /* Light yellow button */
+    color: #2e2111; /* Dark brown text */
+}
+
+#submit:hover {
+    background-color: #FD7024; /* Vibrant orange on hover */
+    color: #fff; /* White text */
+}
+
+#form_img {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px dashed #FD7024; /* Vibrant orange dashed border */
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#form_img label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2e2111; /* Dark brown text */
+    text-align: center;
+}
+
+#input_img {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #FD7024; /* Vibrant orange border */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Section transitions */
+#Presentation,
+#Experience,
+#Skills,
+#Contacts,
+#form_img {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#experience-button, 
+#skill-button, 
+#submit {
+    display: none;
+}
+
+#Presentation {
+    display: flex;
+}
